@@ -11,6 +11,8 @@ instLib <- function (libn) {
 ### install required libraries
 instLib(c("caret", "stats", "stringi", "stringr", "magrittr", "plyr", "dplyr", "tidyr", "reshape2", "lubridate", 
           "sqldf", "data.table", "e1071", "Hmisc", "pastecs", "psych", "microbenchmark", "ggplot2", "DBI", 
-          "unbalanced", "Matrix", "gbm", "readr", "scales", "readxl", "xgboost", "pROC", "ROCR"
+          "unbalanced", "Matrix", "gbm", "readr", "scales", "readxl", "xgboost", "pROC", "ROCR",
+          "tikzDevice", "iml", "shapleyR", "shapper", "devtools", "htmlTable"
           ))
 
+instLib(c("htmlTable"))
